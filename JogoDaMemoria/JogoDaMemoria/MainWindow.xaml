@@ -7,6 +7,42 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Viewbox Stretch="Fill">
+        <Grid.Background>
+            <ImageBrush ImageSource="/bg.jpg"/>
+        </Grid.Background>
+        <Rectangle Stroke="Black" Margin="136,12,136,10" Fill="White"/>
 
+        <Label x:Name="Pontuacao" Content="Pontuação:" HorizontalAlignment="Left" Margin="500,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="36" Width="104" Cursor="AppStarting" FontSize="18" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.021"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="Pontos" Content="00" HorizontalAlignment="Left" Margin="602,27,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="31" Height="30"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="167,133,0,0" VerticalAlignment="Top" Width="75" Height="75"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="263,133,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="166,321,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="166,225,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="557,133,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="459,133,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474" Margin="263,225,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="459,321,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="263,321,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="557,225,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="459,225,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="557,321,0,0" VerticalAlignment="Top" Width="76" Height="75" RenderTransformOrigin="-0.515,0.474"/>
+        <Image Margin="362,225,362,134" Source="/cere.jpg" Stretch="Fill">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/cere.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+            <Viewbox>
     </Grid>
 </Window>
